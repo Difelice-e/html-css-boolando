@@ -8,7 +8,7 @@
 .container{
     background-color: white;
     max-width: 1920px;
-    max-height: 1644px;
+    height: 1644px;
     font-size: 0px;
     margin: auto;
 }
@@ -27,7 +27,6 @@
 .product-box {
     width: 480px;
     height: 769px;
-    border: 1px solid black;
     position: relative;
 }
 
@@ -38,21 +37,19 @@
     left: 16px;
 }
 
-.img1 {
+.product-img img {
     width: 448px;
     height: 669px;
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.img1 { 
     z-index: 2;
 }
 
 .img2 {
-    width: 448px;
-    height: 669px;
-    position: absolute;
-    top: 0;
-    left: 0;
     z-index: 1;
 }
 
@@ -81,20 +78,21 @@
     height: 44px;
     position: absolute;
     top: 605px;
-    left: -6px;
+    left: -5px;
     z-index: 3;
     font-size: 15px;
 }
 
 .product-tag div {
     display: inline-block;
+    color: white;
+    font-weight: bold;
 }
 
 .discount {
     width: 36.4px;
     height: 25px;
     background-color: red;
-    color: white;
     text-align: center;
     line-height: 25px;
     margin: 10px 0px 0px 5.6px;
@@ -104,10 +102,9 @@
     width: 84px;
     height: 25px;
     background-color: green;
-    color: white;
     text-align: center;
     line-height: 25px;
-    margin: 10px 0px 0px 4.67px;
+    margin: 10px 0px 0px 5.6px;
 }
 
 /* info del prodotto */
