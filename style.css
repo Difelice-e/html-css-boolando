@@ -8,6 +8,8 @@ body {
     background-color: white;
     width: 1920px;
     height: 1644px;
+    font-size: 0px;
+    text-align: center;
 }
 
 .product-row > div {
@@ -22,8 +24,6 @@ body {
 }
 
 .product-img {
-    /* width: 448px;
-    height: 669px; */
     position: absolute;
     top: 13px;
     left: 16px;
@@ -32,7 +32,6 @@ body {
 .img1 {
     width: 448px;
     height: 669px;
-    border: 1px solid black;
     position: absolute;
     top: 0;
     left: 0;
@@ -53,13 +52,25 @@ body {
     display: none;
 }
 
+.like {
+    width: 49px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 29px;
+    left: 404px;
+    z-index: 4;
+    font-size: 35px;
+    text-align: center;
+    line-height: 50px;
+}
+
 .product-tag {
     width: 152px;
     height: 44px;
-    border: 1px solid black;
     position: absolute;
-    top: 553px;
-    left: -16px;
+    top: 605px;
+    left: -6px;
     z-index: 3;
     font-size: 15px;
 }
@@ -88,16 +99,36 @@ body {
     margin: 10px 0px 0px 4.67px;
 }
 
-.other span {
-    /* vertical-align: middle; */
-}
-
 .product-info {
     width: 448px;
     height: 63px;
-    border: 1px solid black;
-    background-color: blue;
     position: absolute;
     top: 690px;
     left: 16px;
+    font-size: 15px;
+}
+
+.product-info div {
+    width: 424px;
+    height: 14px;
+    line-height: 14px;
+}
+
+.brand {
+    margin: 7px 15px 0px 9px;
+}
+
+.name {
+    margin: 4px 15px 4px 9px;
+    font-weight: bold;
+}
+
+.price {
+    color: red;
+    margin: 0px 15px 9px 9px;
+}
+
+.price span {
+    text-decoration: line-through;
+    color: black;
 }
